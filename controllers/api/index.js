@@ -1,5 +1,3 @@
-// const { get } = require('..')
-
 
 const db = require("../../models");
 const Workout = require('../../models/Workout');
@@ -7,7 +5,6 @@ const router = require("express").Router();
 
 router.get('/workouts', (req, res) => {
     db.Workout.find({})
-    // .sort({ date: -1 })
     .then(dbWorkout => {
         res.json(dbWorkout);
     })
@@ -36,9 +33,8 @@ router.put("/workouts/:id", ({ body, params }, res) => {
       });
   });
 
-  router.get('/workouts/range', (req, res) => {
+router.get('/workouts/range', (req, res) => {
     db.Workout.find({})
-    // .sort({ date: -1 })
     .then(dbWorkout => {
         res.json(dbWorkout);
     })
