@@ -33,7 +33,7 @@ To install this application, please follow the below instructions:
 6.  Navigate to `localhost:3000` or, if a different port is specified in your `.env` file, use that port
 
 ## Usage
-Use this to have a personalized blog site with functionality for contributors
+Use this to track both resistance and cardio exercises to view details of your workout progress
 
 ## License 
 This project is licensed under the MIT License. Click the link below to learn more about how you can use this project.  
