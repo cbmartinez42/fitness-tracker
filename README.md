@@ -15,6 +15,10 @@ This is a full-stack application to track and graph exercises and workouts utili
 
 The deployed application can be located at: https://cbmfitness-tracker.herokuapp.com/
 
+### Screenshot:   
+![Screenshot](./assets/images/screenshot.gif)
+
+
 ### Features
 * Utilizes MongoDB for flexibility with exercise types - both Cardio and Resistance exercises are supported
 
